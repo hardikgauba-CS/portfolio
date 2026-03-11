@@ -27,10 +27,10 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
         {/* First heading */}
         <TypeAnimation
           sequence={[
-            'Hi My Name is Atishay Jian', 
-            2000, 
-            'Hi My Name is Atishay Jain', 
-            2000,
+            'Hi My Name is Hardik Gauab', 
+            3000, 
+            'Hi My Name is Hardik Gauba', 
+            3000,
             () => setShowContent(true),
           ]}
           wrapper="h1"
