@@ -31,7 +31,7 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
             2000, 
             'Hi My Name is Hardik Gauba;',
             2000,
-            () => { setTimeout(() => setShowContent(true), 2000); },
+            () => { setTimeout(() => setShowContent(true), 4000); },
           ]}
           wrapper="h1"
           cursor={true}
