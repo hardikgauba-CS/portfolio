@@ -1,0 +1,131 @@
+@media (max-width: 768px) {
+    .responsive-container {
+      width: 95vw;
+      height: 90vh;
+      padding: 1rem;
+    }
+  
+    .responsive-text h1 {
+      font-size: 2em;
+    }
+  
+    .responsive-text h2 {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .responsive-container {
+      width: 100vw;
+      height: 100vh;
+      padding: 0.5rem;
+    }
+  
+    .responsive-text h1 {
+      font-size: 1.8em;
+    }
+  
+    .responsive-text h2 {
+      font-size: 1.2em;
+    }
+  }
+  
+/* Navbar Container */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 40;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures even spacing */
+  }
+  
+  /* Navbar Title */
+  .navbar-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 1rem; /* Moves the title slightly right */
+  }
+  
+  /* Navbar Icons */
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Icon Styling */
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Dark Mode Toggle Button */
+  .theme-toggle {
+    padding: 0.4rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+  }
+  
+  .theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* 🔹 Responsive Adjustments */
+  @media (max-width: 768px) {
+    .navbar-container {
+      padding: 0 0.8rem; /* Adjust padding */
+    }
+  
+    .navbar-title {
+      font-size: 1rem; /* Reduce title size */
+      margin-left: 1.5rem; /* Slightly push right */
+    }
+  
+    .navbar-icons {
+      gap: 0.5rem; /* Reduce spacing */
+    }
+  
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .theme-toggle {
+      padding: 0.3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-container {
+      padding: 0 0.5rem; /* Tighter spacing */
+    }
+  
+    .navbar-title {
+      font-size: 0.9rem;
+      margin-left: 1.2rem;
+    }
+  
+    .icon {
+      width: 18px;
+      height: 18px;
+    }
+  
+    .navbar-icons {
+      gap: 0.4rem;
+    }
+  }
+  
