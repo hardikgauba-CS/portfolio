@@ -28,9 +28,9 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
         <TypeAnimation
           sequence={[
             'Hi My Name is Hardik Gauba',
-            2000,
+            3000,
             'Hi My Name is Hardik Gauba',
-            2000,
+            3000,
             () => setShowContent(true),
           ]}
           wrapper="h1"
