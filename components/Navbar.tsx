@@ -22,7 +22,7 @@ export function Navbar({ isDark, setIsDark }: NavbarProps) {
     { name: "Home", href: "/" },
     { name: "Projects", href: "/projects" },
     { name: "Architecture", href: "/architecture" },
-    { name: "Resume", href: "https://www.overleaf.com/read/psjcgjsythmg#d48c3e", external: true },
+    { name: "Resume", href: "https://www.overleaf.com/read/kwgbhpqdbrzm#eefbd5", external: true },
     { name: "Mail", href: "mailto:hardikgauba9@gmail.com", external: true },
   ]
 

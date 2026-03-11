@@ -14,67 +14,55 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Atishay Jain | Software Engineer & AI Developer | atie.dev",
+  title: "Hardik Gauba | Software Engineer | hardik-cs.com",
   description:
-    "Official portfolio of Atishay Jain - Software Engineer specializing in AI, Machine Learning & Full-Stack Development. MS in Computer Science at Santa Clara University (SCU), BS in CS from San Jose State University (SJSU). View projects, experience, and skills.",
+    "Official portfolio of Hardik Gauba — Software Engineer focused on backend systems and AI. View projects, experience, and skills.",
   keywords: [
-    "Atishay Jain",
-    "Atishay Jain Portfolio",
-    "Atishay Jain Software Engineer",
-    "Atishay Jain SCU",
-    "Atishay Jain Santa Clara University",
-    "Atishay Jain SJSU",
-    "Atishay Jain San Jose State",
-    "Atishay Jain Developer",
-    "Atishay Jain AI",
-    "Atishay Jain Machine Learning",
-    "atie.dev",
-    "Software Engineer Bay Area",
-    "AI Developer San Jose",
+    "Hardik Gauba",
+    "Hardik Gauba Portfolio",
+    "Hardik Gauba Software Engineer",
+    "Hardik Gauba SJSU",
+    "Hardik Gauba San Jose State University",
+    "Hardik Gauba Developer",
+    "hardik-cs.com",
+    "Software Engineer San Jose",
+    "Backend Engineer",
+    "AI Engineer",
     "Full-Stack Developer",
-    "Spring Boot Developer",
+    "Backend Developer",
     "React Developer",
     "Next.js Developer",
     "Java Developer",
     "Python Developer",
-    "Machine Learning Engineer",
+    "Machine Learning",
     "Computer Science Portfolio",
   ],
-  authors: [{ name: "Atishay Jain", url: "https://www.atie.dev" }],
-  creator: "Atishay Jain",
-  publisher: "Atishay Jain",
+  authors: [{ name: "Hardik Gauba", url: "https://hardik-cs.com" }],
+  creator: "Hardik Gauba",
+  publisher: "Hardik Gauba",
   robots: "index, follow",
   openGraph: {
-    title: "Atishay Jain | Software Engineer & AI Developer",
+    title: "Hardik Gauba | Software Engineer",
     description:
-      "Official portfolio of Atishay Jain - Software Engineer with expertise in AI, Machine Learning & Full-Stack Development. Currently pursuing MS in CS at Santa Clara University.",
+      "Official portfolio of Hardik Gauba — Software Engineer focused on backend systems and AI.",
     type: "website",
-    url: "https://www.atie.dev",
-    siteName: "Atishay Jain Portfolio",
+    url: "https://hardik-cs.com",
+    siteName: "Hardik Gauba Portfolio",
     locale: "en_US",
     images: [{ 
-      url: "https://www.atie.dev/profile.jpg",
+      url: "https://hardik-cs.com/profile.jpg",
       width: 1200,
       height: 630,
-      alt: "Atishay Jain - Software Engineer"
+      alt: "Hardik Gauba - Software Engineer"
     }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Atishay Jain | Software Engineer & AI Developer",
-    description:
-      "Official portfolio of Atishay Jain - Software Engineer specializing in AI, ML & Full-Stack. MS CS @ SCU, BS CS @ SJSU.",
-    images: [{ url: "https://www.atie.dev/profile.jpg" }],
-    creator: "@AtishayJain19",
-    site: "@AtishayJain19",
   },
   verification: {
     google: "your-google-verification-code", // Add your Google Search Console verification
   },
   alternates: {
-    canonical: "https://www.atie.dev",
+    canonical: "https://hardik-cs.com",
   },
-  metadataBase: new URL("https://www.atie.dev"),
+  metadataBase: new URL("https://hardik-cs.com"),
 };
 
 
@@ -86,25 +74,14 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Atishay Jain",
-    url: "https://www.atie.dev",
-    image: "https://www.atie.dev/profile.jpg",
+    name: "Hardik Gauba",
+    url: "https://hardik-cs.com",
+    image: "https://hardik-cs.com/profile.jpg",
     sameAs: [
-      "https://github.com/atishay8192261",
-      "https://linkedin.com/in/atishayjain19",
-      "https://twitter.com/AtishayJain19",
+      "https://github.com/hardikgauba-CS",
     ],
     jobTitle: "Software Engineer",
-    worksFor: {
-      "@type": "Organization",
-      name: "Santa Clara University",
-    },
     alumniOf: [
-      {
-        "@type": "CollegeOrUniversity",
-        name: "Santa Clara University",
-        sameAs: "https://www.scu.edu",
-      },
       {
         "@type": "CollegeOrUniversity",
         name: "San Jose State University",
@@ -121,9 +98,9 @@ export default function RootLayout({
       "TypeScript",
       "React",
       "Next.js",
-      "Spring Boot",
+      "Backend Systems",
     ],
-    email: "mailto:atishayjain@atie.dev",
+    email: "mailto:hardikgauba9@gmail.com",
   };
 
   return (
