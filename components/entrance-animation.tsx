@@ -49,6 +49,7 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
         {/* Second heading */}
         <TypeAnimation
           sequence={[
+            4000,
             'I code;',
             2000,
             'I Build AI Agents;',
