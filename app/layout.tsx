@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Hardik Gauba | Software Engineer | hardik-cs.com",
+  title: "Hardik Gauba | Software Engineer & AI Developer | hardik-cs.com",
   description:
     "Official portfolio of Hardik Gauba — Software Engineer focused on backend systems and AI. View projects, experience, and skills.",
   keywords: [

@@ -180,7 +180,7 @@ export function GitHubWidget({ isDark }: GitHubWidgetProps) {
               asChild
             >
               <a
-                href="https://github.com/Atishay8192261"
+                href="https://github.com/hardikgauba-CS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
