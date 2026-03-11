@@ -27,10 +27,10 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
         {/* First heading */}
         <TypeAnimation
           sequence={[
-            'Hi My Name is Hardik Gauba',
-            3000,
-            'Hi My Name is Hardik Gauba',
-            3000,
+            'Hi My Name is Atishay Jian', 
+            2000, 
+            'Hi My Name is Atishay Jain', 
+            2000,
             () => setShowContent(true),
           ]}
           wrapper="h1"
@@ -58,7 +58,7 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
           ]}
           wrapper="h2"
           cursor={true}
-          repeat={0}
+          repeat={Infinity}
           speed={50}
           style={{
             fontSize: '2em',
