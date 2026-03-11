@@ -31,7 +31,7 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
             2000, 
             'Hi My Name is Hardik Gauba;',
             2000,
-            () => { setTimeout(() => setShowContent(true), 5000); },
+            () => { setTimeout(() => setShowContent(true), 2000); },
           ]}
           wrapper="h1"
           cursor={true}
@@ -54,11 +54,11 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
             'I Build AI Agents;',
             2000,
             'Lets Connect!',
-            2500,
+            2000,
           ]}
           wrapper="h2"
           cursor={true}
-          repeat={Infinity}
+          repeat={0}
           speed={50}
           style={{
             fontSize: '2em',
