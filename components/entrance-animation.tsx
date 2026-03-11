@@ -31,7 +31,7 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
             2000, 
             'Hi My Name is Hardik Gauba;',
             2000,
-            () => { setTimeout(() => setShowContent(true), 4000); },
+            () => { setTimeout(() => setShowContent(true), 2000); },
           ]}
           wrapper="h1"
           cursor={true}
@@ -49,13 +49,12 @@ export function EntranceAnimationComponent({ onComplete }: { onComplete: () => v
         {/* Second heading */}
         <TypeAnimation
           sequence={[
-            4000,
             'I code;',
             2000,
             'I Build AI Agents;',
             2000,
             'Lets Connect!',
-            2000,
+            3000,
           ]}
           wrapper="h2"
           cursor={true}
